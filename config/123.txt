@@ -1,0 +1,3 @@
+ros2 launch nav2_bringup bringup_launch.py \
+  map:=/home/hzy/2pgm2path_ws/111.yaml \
+  params_file:=/home/hzy/2pgm2path_ws/nav2_params.yaml

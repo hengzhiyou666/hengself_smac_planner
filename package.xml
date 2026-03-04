@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>smac_planner</name>
+  <version>0.0.1</version>
+  <description>Nav2 + Smac Planner 一键启动：TF、地图、参数、RViz（for_launch 一条命令）</description>
+  <maintainer email="user@example.com">user</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
